@@ -12,6 +12,9 @@ include vendor/xiaomi/zizhan/BoardConfigVendor.mk
 
 DEVICE_PATH := device/xiaomi/zizhan
 
+# Audio
+AUDIO_FEATURE_ENABLED_CIRRUS_CALIBRATION_RESISTANCE := true
+
 # Kernel
 device_second_stage_modules := \
     fst2.ko
