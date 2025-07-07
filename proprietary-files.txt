@@ -547,6 +547,7 @@ vendor/etc/camera/zizhan_enhance_motiontuning.xml
 vendor/etc/camera/zizhan_motiontuning.xml
 vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.quickcamera@1.0-service.xml
+vendor/lib64/camera/com.qti.tuned.default.bin
 vendor/lib64/camera/components/com.bots.node.vendortagwrite.so
 vendor/lib64/camera/components/com.mi.node.AIIE.so
 vendor/lib64/camera/components/com.mi.node.aiasd.so
@@ -942,7 +943,6 @@ vendor/lib64/camera/com.qti.sensormodule.zizhan_sunny_imx596_front_i.bin
 vendor/lib64/camera/com.qti.sensormodule.zizhan_sunny_imx596_front_ii.bin
 vendor/lib64/camera/com.qti.sensormodule.zizhan_sunny_imx766_wide_i.bin
 vendor/lib64/camera/com.qti.sensormodule.zizhan_sunny_imx766_wide_ii.bin
-vendor/lib64/camera/com.qti.tuned.default.bin
 vendor/lib64/camera/com.qti.tuned.zizhan_ofilm_imx663_tele_i.bin
 vendor/lib64/camera/com.qti.tuned.zizhan_ofilm_imx663_tele_ii.bin
 vendor/lib64/camera/com.qti.tuned.zizhan_ofilm_ov13b10_ultra_i.bin
