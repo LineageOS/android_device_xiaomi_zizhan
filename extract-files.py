@@ -32,8 +32,10 @@ blob_fixups: blob_fixups_user_type = {
     ('vendor/etc/camera/pureView_parameter.xml',): blob_fixup().regex_replace(
         r'=([0-9]+)>', r'="\1">'
     ),
+    'vendor/lib64/hw/camera.xiaomi.so': blob_fixup()
+    .add_needed('libprocessgroup_shim.so')
+    .replace_needed('libui.so', 'libui-v34.so'),
     (
-        'vendor/lib64/hw/camera.xiaomi.so',
         'vendor/lib64/hw/com.qti.chi.override.so',
         'vendor/lib64/libcamxcommonutils.so',
         'vendor/lib64/libmialgoengine.so',
