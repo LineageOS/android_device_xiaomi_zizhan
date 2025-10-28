@@ -29,7 +29,6 @@ PRODUCT_PACKAGES += \
     FrameworksResZizhan \
     NfcResZizhan \
     SettingsProviderResZizhan \
-    SettingsResZizhan \
     SystemUIResZizhan \
     WifiResZizhan
 
