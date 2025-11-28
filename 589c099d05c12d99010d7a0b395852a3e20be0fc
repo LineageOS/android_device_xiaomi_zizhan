@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a8f6b5d2_c3da1a94",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2025-11-28T17:44:14Z",
+      "side": 1,
+      "message": "will write a proper commit message later",
+      "revId": "589c099d05c12d99010d7a0b395852a3e20be0fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "abf6fefe_7e497009",
+        "filename": "extract-files.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2025-11-28T17:44:14Z",
+      "side": 1,
+      "message": "4 times because each call only replaces one occurence but GraphicBuffer is created 4 times",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 2
+      },
+      "revId": "589c099d05c12d99010d7a0b395852a3e20be0fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
