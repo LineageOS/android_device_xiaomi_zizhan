@@ -62,6 +62,14 @@ blob_fixups: blob_fixups_user_type = {
         'vendor.qti.hardware.display.config-V2-ndk_platform.so',
         'vendor.qti.hardware.display.config-V2-ndk.so',
     ),
+    'vendor/lib64/libcom.xiaomi.grallocutils.so': blob_fixup().update_graphic_buffer_size(
+        [
+            '_Z21allocateGraphicBufferjjim',
+            '_Z29createGraphicBufferFromHandlejjimjPK13native_handle',
+            '_ZN12GrallocUtils19createGrallocBufferEjjimjPK13native_handleP16GrallocBufHandle',
+        ],
+    ),
+
 }
 
 module = ExtractUtilsModule(
