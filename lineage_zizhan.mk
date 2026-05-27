@@ -17,8 +17,8 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := 22061218C
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="zizhan-user 15 AQ3A.250226.002 OS3.0.5.0.VLRCNXM release-keys" \
-    BuildFingerprint=Xiaomi/zizhan/zizhan:15/AQ3A.250226.002/OS3.0.5.0.VLRCNXM:user/release-keys
+    BuildDesc="zizhan-user 15 AQ3A.250226.002 OS3.0.6.0.VLRCNXM release-keys" \
+    BuildFingerprint=Xiaomi/zizhan/zizhan:15/AQ3A.250226.002/OS3.0.6.0.VLRCNXM:user/release-keys
     DeviceProduct=zizhan \
     SystemName=zizhan
 
